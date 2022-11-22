@@ -19,7 +19,7 @@ class OnboardingPage extends GetView<OnboardingController> with DeveloperMixin {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: const [
-                SizeWidget(height: 58), //TODO: remove 24px for dima test
+                SizeWidget(height: 58), //TODO: remove 24px
                 _OnboardingImageWidget('assets/images/onboarding_1.png'),
                 SizeWidget(height: 13),
                 _TextWidget(
@@ -67,7 +67,7 @@ class _BottomBarWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(14, 0, 15, 25),
       child: Row(
-    crossAxisAlignment: CrossAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           Container(
