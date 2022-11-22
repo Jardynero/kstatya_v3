@@ -19,7 +19,7 @@ class OnboardingPage extends GetView<OnboardingController> with DeveloperMixin {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: const [
-                SizeWidget(height: 58), //TODO: remove 24px for dima test
+                SizeWidget(height: 58), //TODO: remove 24px for dima test 2
                 _OnboardingImageWidget('assets/images/onboarding_1.png'),
                 SizeWidget(height: 13),
                 _TextWidget(
